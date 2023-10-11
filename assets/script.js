@@ -47,7 +47,7 @@ var setupSaveButtons = function(){
   for (var i = 0; i <buttons.length; i++){
     $(buttons[i]).click(function(){
       var saveData = $(this).prev().val();
-      localStorage.setItem(, saveData);
+      localStorage.setItem("test", saveData);
     });
 }
 }
