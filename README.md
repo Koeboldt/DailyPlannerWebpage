@@ -18,6 +18,7 @@ To use this website, open the link provided above. At the top of the page the cu
 ## Credits
 
 Used assets provided by the Bootcamp as a starting point.
+Used code from https://stackoverflow.com/questions/48769877/save-to-localstorage-with-html-jquery for help getting it to save to local storage
 
 ## License
 
