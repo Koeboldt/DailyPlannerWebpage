@@ -25,12 +25,12 @@ console.log(hour)
 console.log(hourTimer)
 var updateTime = function(){
   for (var i = 0; i <hour.length; i++){
-      if(hourTimer < i){
+      if(hourTimer-9 < i){
         $(hour[i]).removeClass("present");
         $(hour[i]).removeClass("past");
         $(hour[i]).addClass("future");
       }
-      else if (hourTimer == i){
+      else if (hourTimer-9 == i){
         $(hour[i]).removeClass("future");
         $(hour[i]).removeClass("past");
         $(hour[i]).addClass("present");
